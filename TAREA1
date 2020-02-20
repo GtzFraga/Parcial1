@@ -1,0 +1,22 @@
+var suma=1,numero=6,cont=0;
+
+console.log (serie(numero));
+
+function serie(numero){
+    for(var i=1;i<=numero;i++){
+        cont++;
+        suma=suma/cont;
+        console.log(suma);
+    }
+}
+var suma=1,numero=6,cont=0,res=0;
+
+console.log (serie(numero));
+
+function serie(numero){
+    for(var i=1;i<=numero;i++){
+        res+=1/i;
+        
+        console.log(res);
+    }
+}
